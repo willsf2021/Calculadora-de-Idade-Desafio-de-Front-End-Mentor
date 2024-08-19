@@ -39,8 +39,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da Solução:
-- URL do Site ao Vivo:
+- URL da Solução: https://github.com/willsf2021/Calculadora-de-Idade-Desafio-de-Front-End-Mentor/
+- URL do Site ao Vivo: https://willsf2021.github.io/Calculadora-de-Idade-Desafio-de-Front-End-Mentor/
 
 ## Meu Processo
 
