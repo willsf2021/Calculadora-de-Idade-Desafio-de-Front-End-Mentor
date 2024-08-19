@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Calculadora de Idade</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <section id="dados">
+          <div id="container-dia" class="container dia">
+            <label id="dia-label" for="dia-input">DIA</label>
+            <input id="dia-input" type="number" placeholder="DD" />
+            <p class="vazio-dia">Este campo é obrigatório</p>
+            <p class="invalido-dia">Deve ser um dia válido</p>
+            <p class="invalida-data">Deve ser uma data válida</p>
+          </div>
+          <div class="container mes">
+            <label id="mes-label" for="mes-input">MÊS</label>
+            <input id="mes-input" type="number" placeholder="MM" />
+            <p class="vazio-mes">Este campo é obrigatório</p>
+            <p class="invalido-mes">Meve ser um mês válido</p>
+          </div>
+          <div class="container ano">
+            <label id="ano-label" for="ano-input">ANO</label>
+            <input id="ano-input" type="number" placeholder="AAAA" />
+            <p class="vazio-ano">Este campo é obrigatório</p>
+            <p class="invalido-ano">Deve ser no passado</p>
+          </div>
+        </section>
+        <section id="calcular">
+          <div id="hr"></div>
+          <div id="botao-calcular" onclick="calcular()">
+            <img src="assets/images/icon-arrow.svg" alt="botao calcular" />
+          </div>
+        </section>
+        <section id="resultado">
+          <p><span class="resultado anoss">--</span> ano(s)</p>
+          <p><span class="resultado mess">--</span> mês(es)</p>
+          <p><span class="resultado dias">--</span> dia(s)</p>
+        </section>
+      </article>
+    </main>
+    <div class="creditos">
+      Desafio de
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >
+      desenvolvido por <a href="#">Wilson Júnior</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
